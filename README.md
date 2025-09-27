@@ -4,8 +4,10 @@
 ![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-orange.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 ![Pandas](https://img.shields.io/badge/Pandas-1.5-blue.svg)
+![NumPy](https://img.shields.io/badge/NumPy-1.26-lightgrey.svg) 
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-3.8-orange.svg)
 ![Seaborn](https://img.shields.io/badge/Seaborn-0.12-blueviolet.svg)
+![GitHub](https://img.shields.io/badge/Version%20Control-GitHub-black.svg)
 
 ---
 
@@ -50,7 +52,7 @@ Key insights and trends include:
 - 🎯 Players with highest runs, most wickets, and top strike rates  
 - 🔥 Boundary analysis (4s, 6s, contribution to total runs)  
 - ⚡ Highest team totals & biggest win margins  
-- 📌 Venue-based winning patterns  
+- 🏛️ Venue-based winning patterns  
 
 All insights are supported by **Matplotlib** & **Seaborn**, and plots are saved in the `images/` folder.
 
@@ -66,14 +68,14 @@ IPL_EDA_2008-2020/
 │ └── IPL Ball-by-Ball 2008-2020.csv
 │
 ├── images/
-│ ├── highest_runs.png
-│ ├── top_batsmen.png
-│ └── season_trends.png
+│ ├── death_over_runrate.png
+│ ├── toss_decision.png
+│ └── toss_win_matches_comp.png
 │
 ├── ipl_eda.ipynb # Main Jupyter notebook
 ├── LICENSE # MIT License
 ├── README.md # Project documentation
-└── SUMMARY.pdf # Key insights and visualizations
+└── SUMMARY.md # Key insights and visualizations
 
 ---
 
